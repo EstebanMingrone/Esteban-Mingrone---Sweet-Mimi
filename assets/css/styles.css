@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Gabriela&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*----> Generales <----*/
+
+.header{
+    background-image: url(../img/smbckghd.png);
+    margin-top: 147px ;
+}
+
+.header h1{
+    font-family: "Gabriela";
+    color: #6E2E3C;
+    font-weight: 800;
+    font-size: 38px;
+    padding: 5px;
+}
+
+.main{
+    background-image: url(../img/smbckghd.png);
+}
+
+.footer{
+    background-image: url(../img/smfooterbckg.png);
+}
+
+/*----> Nav <----*/
+
+.nav{
+    width: 100%;
+    background-color: #6E2E3C;
+    font-family: "bitter";
+    border-bottom: #FAEFE3 solid;
+    position: fixed;
+    margin: 0%;
+    
+}
+
+.nav ul{
+    list-style: none;
+    margin: 10px;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: #FAEFE3;
+}
+
+.nav input{
+    width: 150px;
+}
+
+.navIcon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+
+/*----> Index <----*/
+
+.indexVideo{
+    width: 100%;
+    margin-top: 143px;
+}
+
+.indexSobreNosotros{
+    color: #6E2E3C;
+    background-color: #FAEFE3;
+    border: #6E2E3C solid;
+    font-family: "Bitter";
+}
+
+.indexSobreNosotros h3{
+    font-family: "Gabriela";
+    font-weight: 800;
+}
+
+/*----> Nosotros <----*/
+
+.nosotrosMainCards{
+    font-family: "Bitter";
+    color: #6E2E3C;
+}
+
+.nosotrosCards{
+    background-color: #FAEFE3;
+    width: 60%;
+    border: #6E2E3C solid;
+    text-align: center;
+}
+
+.nosotrosCards h4{
+    font-family: "Gabriela";
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.nosotrosCards img{
+    width: 100%;
+}
+
+.sobreNosotros{
+    width: 100%;
+    margin: 10px;
+}
+
+/*----> Productos <----*/
+
+.productosCategorias{
+    font-family: "bitter";
+    border: #6E2E3C solid;
+    width: fit-content;
+    text-align: center;
+    color: #6E2E3C;
+    background-color: #FDB6C5;
+    margin: 10px;
+}
+
+.productosBuscador{
+    width: 100%;
+}
+
+.productosFiltro{
+    width: 80%;
+}
+
+.productosCategorias button{
+    background-color: #FAEFE3;
+    color: #6E2E3C;
+    border: #6E2E3C solid;
+    margin: 5px;
+}
+
+.productosCards{
+    background-color: #FAEFE3;
+    color: #6E2E3C;
+    font-family: "bitter";
+    border: #6E2E3C solid;
+}
+
+.productosCards h5{
+    font-family: "Gabriela";
+    font-weight: 800;
+}
+
+/*----> Galería <----*/
+
+.galeriaImg img{
+    border: #FAEFE3 solid;
+    margin: 10px;
+}
+
+/*----> Contacto <----*/
+
+.contactoHeader{
+    font-family: "Bitter";
+    font-size: 30px;
+}
+
+.contactoHeader h5{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.contactoCard{
+    color: #FAEFE3;
+    font-family: "Bitter";
+    padding: 10px;
+}
+
+.contactoCard a{
+    text-decoration: none;
+    color: #FAEFE3;
+}
+
+.form{
+    background-color: #FAEFE3;
+    border: #6E2E3C solid;
+    color: #6E2E3C;
+    width: 70%;
+    font-family: "Bitter";
+}
+
+.form input{
+    display: inline-block;
+    position: relative;
+    font-family: "Bitter";
+    margin: 5px;
+    width: 90%
+}
+
+.form textarea{
+    width: 100%;
+}
+
+.form h4{
+    margin: 5px;
+}
+
+.ubicacion{
+    background-color: #FAEFE3;
+    margin: 10px;
+    border: #6E2E3C solid;
+    width: fit-content;
+    font-family: "bitter";
+    padding: 5px;
+}
+
+.ubicacion h2{
+    color: #6E2E3C;
+    font-family: "Gabriela";
+    margin: 5px;
+}
+
+/*----> Footer <----*/
+
+.footer{
+    color: #FAEFE3;
+    font-family: "Bitter";
+}
+
+.footer a{
+    text-decoration: none;
+    color: #FAEFE3;
+}
+
+.contactFooterCard{
+    background-color: #6E2E3C;
+    border: #FAEFE3 solid;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.contactFooterCard h2{
+    text-align: center;
+}
+
+.contactFooterCard img{
+    margin: 10px;
+}
+
+.footerNav{
+    background-color: #6E2E3C;
+    border: #FAEFE3 solid;
+    width: 327.2px ;
+    font-size: larger;
+
+}
+
+.footerHorneados{
+    background-image: url(../img/smbckghorneado.png);
+    border: solid #6E2E3C 3px;
+    color: #6E2E3C;
+    width: 65.444%;
+    text-align: center;
+    font-family: "bitter";
+}
+
+.footerHorneados img{
+    width: 100%;
+    margin: 0px 0px 10px;
+}
+
+.footerHorneados h3{
+    margin: 10px;
+    font-family: "Gabriela";
+    font-weight: 800;
+}
