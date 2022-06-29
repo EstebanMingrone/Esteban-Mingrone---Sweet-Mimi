@@ -156,8 +156,12 @@
 .galeriaImg img{
     border: #FAEFE3 solid;
     margin: 10px;
+    transition: all 1s;
 }
 
+.galeriaTrans1:hover{
+    transform: translate(0px,20px) scale(1.2);
+}
 /*----> Contacto <----*/
 
 .contactoHeader{
