@@ -76,6 +76,7 @@
     background-color: #FAEFE3;
     border: #6E2E3C solid;
     font-family: "Bitter";
+    width: 90%;
 }
 
 .indexSobreNosotros h3{
@@ -239,7 +240,8 @@
 .contactFooterCard{
     background-color: #6E2E3C;
     border: #FAEFE3 solid;
-    width: fit-content;
+    width: 327.2px;
+    height: max-content;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -257,18 +259,20 @@
 .footerNav{
     background-color: #6E2E3C;
     border: #FAEFE3 solid;
-    width: 327.2px ;
+    width: 327.2px;
+    height: 488.39px;
     font-size: larger;
-
 }
 
 .footerHorneados{
     background-image: url(../img/smbckghorneado.png);
     border: solid #6E2E3C 3px;
     color: #6E2E3C;
-    width: 65.444%;
+    width: 327.2px;
+    
     text-align: center;
     font-family: "bitter";
+    padding: 0%;
 }
 
 .footerHorneados img{
@@ -280,4 +284,10 @@
     margin: 10px;
     font-family: "Gabriela";
     font-weight: 800;
+}
+
+.footerHorneados input{
+    background-color: #6E2E3C;
+    color: #FAEFE3;
+    margin-bottom: 10px;
 }

@@ -11,24 +11,28 @@
 </head>
 
 <body class="container-fluid p-0">
-  <nav class="row navbar fixed-top text-center" style="background-color: #6E2E3C; border-bottom:#FAEFE3 solid;">
-    <div class="container-fluid col-12">
+  <nav class="navbar fixed-top" style="background-color: #6E2E3C; border-bottom:#FAEFE3 solid;">
+    <div class="container-fluid row justify-content-center text-center p-0 m-0">
           
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="col-2 col-md-2">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
           
-      <div class="container-fluid col-4">
+      <div class="container-fluid col-2 col-md-2 p-1">
         <form class="d-flex" role="search">
           <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
         </form>
       </div>
 
-      <a class="navbar-brand col-3 p-0" href="./index.html"><img src="./assets/img/sm124px.png" alt="logo"></a>
+      <div class="col-4 col-md-5 text-center p-0">
+        <a class="navbar-brand p-0" href="./index.html"><img src="./assets/img/sm124px.png" alt="logo"></a>
+      </div>
           
-      <div class="navIcons col-3">
-        <img src="./assets/img/user64px.png" alt="user">
-        <img src="./assets/img/cart64px.png" alt="cart">
+      <div class="navIcons col-3 col-md-3 p-0">
+        <img src="./assets/img/user64px.png" class="img-fluid" alt="user">
+        <img src="./assets/img/cart64px.png" class="img-fluid" alt="cart">
       </div>
           
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -71,32 +75,40 @@
 
   <main class="main">
 
-    <div class="indexSobreNosotros">
-      <h3>Sobre Nosotros</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, commodi consequatur quaerat id qui iusto reprehenderit blanditiis expedita laboriosam tempore dicta, repudiandae, ab deleniti voluptates unde molestias quos nesciunt sed?</p>
+    <div class="row justify-content-center">
+      <div class="indexSobreNosotros col-12">
+        <h3>Sobre Nosotros</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, commodi consequatur quaerat id qui iusto reprehenderit blanditiis expedita laboriosam tempore dicta, repudiandae, ab deleniti voluptates unde molestias quos nesciunt sed?</p>
+      </div>
     </div>
 
-    <div class="container-fluid" style="width: 18rem;">
-      <div class="row justify-content-center">
-        <div class="card text-center m-2 p-0 col-12" style="background-color: #FAEFE3; color: #6E2E3C; border: #6E2E3C solid;">
-          <img src="./assets/img/artesanals.jpg" class="card-img-top" alt="artesanal">
-          <div class="card-body">
-            <h5 class="card-title" style="font-family: Gabriela; font-weight:bold;" ;>Calidad Artesanal</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div class="container-fluid" >
+      <div class="row row-cols-10 row-cols-md-3 justify-content-center">
+        <div class="col col-10">
+          <div class="card text-center m-2 p-0" style="background-color: #FAEFE3; color: #6E2E3C; border: #6E2E3C solid;">
+            <img src="./assets/img/artesanals.jpg" class="card-img-top img-fluid" alt="artesanal">
+            <div class="card-body">
+              <h5 class="card-title" style="font-family: Gabriela; font-weight:bold;" ;>Calidad Artesanal</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
         </div>
-        <div class="card text-center m-2 p-0 col-12" style="background-color: #FAEFE3; color: #6E2E3C; border: #6E2E3C solid;">
-          <img src="./assets/img/envios.jpg" class="card-img-top" alt="envios">
-          <div class="card-body">
-            <h5 class="card-title">Envíos</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col col-10">
+          <div class="card text-center m-2 p-0" style="background-color: #FAEFE3; color: #6E2E3C; border: #6E2E3C solid;">
+            <img src="./assets/img/envios.jpg" class="card-img-top img-fluid" alt="envios">
+            <div class="card-body">
+              <h5 class="card-title">Envíos</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
         </div>
-        <div class="card text-center m-2 p-0 col-12" style="background-color: #FAEFE3; color: #6E2E3C; border: #6E2E3C solid;">
-          <img src="./assets/img/desayunos.jpg" class="card-img-top" alt="envios">
-          <div class="card-body">
-            <h5 class="card-title">Servicios</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col col-10">
+          <div class="card text-center m-2 p-0" style="background-color: #FAEFE3; color: #6E2E3C; border: #6E2E3C solid;">
+            <img src="./assets/img/desayunos.jpg" class="card-img-top img-fluid" alt="envios">
+            <div class="card-body">
+              <h5 class="card-title">Servicios</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -105,12 +117,12 @@
   </main>
 
   <footer class="footer">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center m-0">
       <div class="col-12 text-center m-3">
         <img src="./assets/img/sm124px.png" alt="logo">
       </div>
 
-      <div class="col-12 contactFooterCard">
+      <div class="col-12 col-md-4 contactFooterCard">
         <h2>Contacto</h2>
         <ul class="contactImages" style="list-style:none;">
           <li><img src="./assets/img/phone64px.png" alt="tel">Tel: 15-5555-5555</li>
@@ -121,7 +133,7 @@
         </ul>
       </div>
 
-      <div class="col-12 m-3 text-center footerNav">
+      <div class="col-12 col-md-4 m-3 text-center footerNav">
         <nav>
           <ul class="ps-0 m-1" style="list-style:none;">
             <li><a href="./index.html">Inicio</a></li>
@@ -135,13 +147,13 @@
 
       <div class="col-12 footerHorneados productosHorneados">
         <h3>Los más Horneados</h3>
-        <img src="./assets/img/swcake.jpg" alt="swcake">
+        <img src="./assets/img/swcake.jpg" class="img-fluid" alt="swcake">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, consequuntur?</p>
         <h3>$$$</h3>
         <input type="button" value="Comprar">
       </div>
     
-      <h5 class="col-12">©Sweet Mimi Delicias con Encanto - Desarrollado por Esteban Mingrone</h5>
+      <h5 class="col-12 text-center">©Sweet Mimi Delicias con Encanto - Desarrollado por Esteban Mingrone</h5>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
