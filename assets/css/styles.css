@@ -9,8 +9,8 @@
 /*----> Generales <----*/
 
 .header{
-    background-image: url(../img/smbckghd.png);
-    margin-top: 147px ;
+    background-image: url(../img/swbckgdark.jpg);
+    margin-top: 143px ;
 }
 
 .header h1{
@@ -19,17 +19,45 @@
     font-weight: 800;
     font-size: 38px;
     padding: 5px;
+    animation-name: appear;
+    animation-duration: 2s;
+}
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .main{
-    background-image: url(../img/smbckghd.png);
+    background-image: url(../img/swbckgdark.jpg);
 }
 
 .footer{
     background-image: url(../img/smfooterbckg.png);
 }
 
+.comprarBtn{
+    border: none;
+}
+
+.comprarBtn:hover{
+    width: 100px ;
+    -webkit-box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.48); 
+    box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.48);
+}
+
 /*----> Nav <----*/
+.offcanvas{
+    background-color:#FAEFE3;
+}
+
+.offcanvas a{
+    color: #6E2E3C;
+}
 
 .nav{
     width: 100%;
@@ -38,7 +66,6 @@
     border-bottom: #FAEFE3 solid;
     position: fixed;
     margin: 0%;
-    
 }
 
 .nav ul{
@@ -51,18 +78,6 @@
     color: #FAEFE3;
 }
 
-.nav input{
-    width: 150px;
-}
-
-.navIcon{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: end;
-    align-items: center;
-    gap: 15px;
-}
 
 /*----> Index <----*/
 
@@ -82,6 +97,16 @@
 .indexSobreNosotros h3{
     font-family: "Gabriela";
     font-weight: 800;
+}
+
+.card-body h5{
+    font-family: "gabriela";
+    font-weight: bolder;
+}
+
+.card-body p{
+    font-family: "bitter";
+    font-size: 13px;
 }
 
 /*----> Nosotros <----*/
@@ -147,11 +172,20 @@
     border: #6E2E3C solid;
 }
 
+.productosCards:hover{
+    -webkit-box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53); 
+    box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53);
+}
+
 .productosCards h5{
     font-family: "Gabriela";
     font-weight: 800;
 }
 
+.productosHorneados:hover{
+    -webkit-box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53); 
+    box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53);
+}
 /*----> Galería <----*/
 
 .galeriaImg img{
@@ -259,7 +293,7 @@
     background-color: #6E2E3C;
     border: #FAEFE3 solid;
     width: 327.2px;
-    font-size: larger;
+    font-size: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -267,7 +301,7 @@
 
 .footerNav li{
     margin: 30px 0px;
-    font-size: 25px;
+    font-size: 1em;
 }
 
 .footerHorneados{
@@ -297,6 +331,10 @@
     margin-bottom: 10px;
 }
 
+.footer h5{
+    font-size: 0.7em;
+}
+
 @media(min-width:768px){
     .contactFooterCard{
         width: 27.26%;
@@ -322,5 +360,11 @@
 
     .nosotrosCards{
         width: 30%;
+    }
+}
+
+@media(max-width:768px){
+    .navIcons{
+        display: none;        
     }
 }
