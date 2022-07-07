@@ -1,0 +1,56 @@
+/*----> Contacto <----*/
+
+.contactoHeader{
+    font-family: "Bitter";
+    font-size: 30px;
+    h5{
+        font-weight: 400;
+        font-size: 40px;
+    }
+}
+
+.contactoCard{
+    color: #FAEFE3;
+    font-family: "Bitter";
+    padding: 10px;
+    a{
+        text-decoration: none;
+        color: $secondColor;
+    }
+}
+
+.form{
+    background-color: $secondColor;
+    border: $mainColor solid;
+    color: $mainColor;
+    width: 70%;
+    font-family: "Bitter";
+    margin-top: 8px;
+    input{
+        display: inline-block;
+        position: relative;
+        font-family: "Bitter";
+        margin: 5px;
+        width: 90%
+    }
+    textarea{
+        width: 100%;
+    }
+    h4{
+        margin: 5px;
+    }
+}
+
+.ubicacion{
+    background-color: $secondColor;
+    margin: 10px;
+    border: $mainColor solid;
+    width: fit-content;
+    font-family: "bitter";
+    padding: 5px;
+    h2{
+        color: $mainColor;
+        font-family: "Gabriela";
+        margin: 5px;
+    }
+}

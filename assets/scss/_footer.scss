@@ -1,0 +1,64 @@
+/*----> Footer <----*/
+
+.footer{
+    color: $secondColor;
+    font-family: "Bitter";
+    a{
+        text-decoration: none;
+        color: $secondColor;
+    }
+}
+
+.contactFooterCard{
+    background-color: $mainColor;
+    border: $secondColor solid;
+    width: 327.2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    h2{
+        text-align: center;
+    }
+    img{
+        margin: 10px;
+    }
+}
+
+.footerNav{
+    background-color: $mainColor;
+    border: $secondColor solid;
+    width: 327.2px;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    li{
+        margin: 30px 0px;
+        font-size: 0.8em;
+    }
+}
+
+.footerHorneados{
+    background-image: url(../img/smbckghorneado.png);
+    border: solid $mainColor 3px;
+    color: $mainColor;
+    width: 327.2px;
+    text-align: center;
+    font-family: "bitter";
+    padding: 0%;
+    img{
+        width: 100%;
+        margin: 0px 0px 10px;
+    }
+    h3{
+        margin: 10px;
+        font-family: "Gabriela";
+        font-weight: 800;
+    }
+    input{
+        background-color: $mainColor;
+        color: $secondColor;
+        margin-bottom: 10px;
+    }
+}

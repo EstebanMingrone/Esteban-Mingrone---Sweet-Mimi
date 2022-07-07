@@ -1,370 +1,320 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Gabriela&display=swap');
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Gabriela&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 /*----> Generales <----*/
-
-.header{
-    background-image: url(../img/swbckgdark.jpg);
-    margin-top: 143px ;
+.header {
+  background-image: url(../img/swbckgdark.jpg);
+  margin-top: 143px;
 }
-
-.header h1{
-    font-family: "Gabriela";
-    color: #6E2E3C;
-    font-weight: 800;
-    font-size: 38px;
-    padding: 5px;
-    animation-name: appear;
-    animation-duration: 2s;
+.header h1 {
+  font-family: "Gabriela";
+  color: #6E2E3C;
+  font-weight: 800;
+  font-size: 38px;
+  padding: 5px;
+  animation-name: appear;
+  animation-duration: 2s;
 }
 
 @keyframes appear {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.main {
+  background-image: url(../img/swbckgdark.jpg);
 }
 
-.main{
-    background-image: url(../img/swbckgdark.jpg);
+.footer {
+  background-image: url(../img/smfooterbckg.png);
+}
+.footer h5 {
+  font-size: 0.7em;
 }
 
-.footer{
-    background-image: url(../img/smfooterbckg.png);
+.comprarBtn {
+  border: none;
 }
-
-.comprarBtn{
-    border: none;
-}
-
-.comprarBtn:hover{
-    width: 100px ;
-    -webkit-box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.48); 
-    box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.48);
+.comprarBtn:hover {
+  width: 100px;
+  -webkit-box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.48);
+  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.48);
 }
 
 /*----> Nav <----*/
-.offcanvas{
-    background-color:#FAEFE3;
+.offcanvas {
+  background-color: #FAEFE3;
 }
-
-.offcanvas a{
-    color: #6E2E3C;
+.offcanvas a {
+  color: #6E2E3C;
 }
-
-.nav{
-    width: 100%;
-    background-color: #6E2E3C;
-    font-family: "bitter";
-    border-bottom: #FAEFE3 solid;
-    position: fixed;
-    margin: 0%;
-}
-
-.nav ul{
-    list-style: none;
-    margin: 10px;
-}
-
-.nav ul a{
-    text-decoration: none;
-    color: #FAEFE3;
-}
-
 
 /*----> Index <----*/
-
-.indexVideo{
-    width: 100%;
-    margin-top: 143px;
+.indexVideo {
+  width: 100%;
+  margin-top: 143px;
 }
 
-.indexSobreNosotros{
-    color: #6E2E3C;
-    background-color: #FAEFE3;
-    border: #6E2E3C solid;
-    font-family: "Bitter";
-    width: 90%;
+.indexSobreNosotros {
+  color: #6E2E3C;
+  background-color: #FAEFE3;
+  border: #6E2E3C solid;
+  font-family: "Bitter";
+  width: 90%;
+}
+.indexSobreNosotros h3 {
+  font-family: "Gabriela";
+  font-weight: 800;
 }
 
-.indexSobreNosotros h3{
-    font-family: "Gabriela";
-    font-weight: 800;
+.card-body h5 {
+  font-family: "gabriela";
+  font-weight: bolder;
 }
-
-.card-body h5{
-    font-family: "gabriela";
-    font-weight: bolder;
-}
-
-.card-body p{
-    font-family: "bitter";
-    font-size: 13px;
+.card-body p {
+  font-family: "bitter";
+  font-size: 13px;
 }
 
 /*----> Nosotros <----*/
-
-.nosotrosMainCards{
-    font-family: "Bitter";
-    color: #6E2E3C;
+.nosotrosMainCards {
+  font-family: "Bitter";
+  color: #6E2E3C;
 }
 
-.nosotrosCards{
-    background-color: #FAEFE3;
-    width: 60%;
-    border: #6E2E3C solid;
-    text-align: center;
+.nosotrosCards {
+  background-color: #FAEFE3;
+  width: 60%;
+  border: #6E2E3C solid;
+  text-align: center;
+}
+.nosotrosCards h4 {
+  font-family: "Gabriela";
+  font-weight: 800;
+  font-size: 30px;
+}
+.nosotrosCards img {
+  width: 100%;
 }
 
-.nosotrosCards h4{
-    font-family: "Gabriela";
-    font-weight: 800;
-    font-size: 30px;
-}
-
-.nosotrosCards img{
-    width: 100%;
-}
-
-.sobreNosotros{
-    width: 100%;
-    margin: 10px;
+.sobreNosotros {
+  width: 100%;
+  margin: 10px;
 }
 
 /*----> Productos <----*/
-
-.productosCategorias{
-    font-family: "bitter";
-    border: #6E2E3C solid;
-    width: fit-content;
-    text-align: center;
-    color: #6E2E3C;
-    background-color: #FDB6C5;
-    margin: 10px;
+.productosCategorias {
+  font-family: "bitter";
+  border: #6E2E3C solid;
+  width: fit-content;
+  text-align: center;
+  color: #6E2E3C;
+  background-color: #FDB6C5;
+  margin: 10px;
+}
+.productosCategorias button {
+  background-color: #FAEFE3;
+  color: #6E2E3C;
+  border: #6E2E3C solid;
+  margin: 5px;
 }
 
-.productosBuscador{
-    width: 100%;
+.productosBuscador {
+  width: 100%;
 }
 
-.productosFiltro{
-    width: 80%;
+.productosFiltro {
+  width: 80%;
 }
 
-.productosCategorias button{
-    background-color: #FAEFE3;
-    color: #6E2E3C;
-    border: #6E2E3C solid;
-    margin: 5px;
+.productosCards {
+  background-color: #FAEFE3;
+  color: #6E2E3C;
+  font-family: "bitter";
+  border: #6E2E3C solid;
+}
+.productosCards h5 {
+  font-family: "Gabriela";
+  font-weight: 800;
+}
+.productosCards:hover {
+  -webkit-box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.53);
+  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.53);
 }
 
-.productosCards{
-    background-color: #FAEFE3;
-    color: #6E2E3C;
-    font-family: "bitter";
-    border: #6E2E3C solid;
+.productosHorneados:hover {
+  -webkit-box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.53);
+  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.53);
 }
 
-.productosCards:hover{
-    -webkit-box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53); 
-    box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53);
-}
-
-.productosCards h5{
-    font-family: "Gabriela";
-    font-weight: 800;
-}
-
-.productosHorneados:hover{
-    -webkit-box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53); 
-    box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53);
-}
 /*----> Galería <----*/
-
-.galeriaImg img{
-    border: #FAEFE3 solid;
-    margin: 10px;
-    transition: all 1s;
+.galeriaImg img {
+  border: #FAEFE3 solid;
+  margin: 10px;
+  transition: all 1s;
 }
 
-.galeriaTrans1:hover{
-    transform: translate(0px,20px) scale(1.2);
+.galeriaTrans1:hover {
+  transform: translate(0px, 20px) scale(1.2);
 }
+
 /*----> Contacto <----*/
-
-.contactoHeader{
-    font-family: "Bitter";
-    font-size: 30px;
+.contactoHeader {
+  font-family: "Bitter";
+  font-size: 30px;
+}
+.contactoHeader h5 {
+  font-weight: 400;
+  font-size: 40px;
 }
 
-.contactoHeader h5{
-    font-weight: 400;
-    font-size: 40px;
+.contactoCard {
+  color: #FAEFE3;
+  font-family: "Bitter";
+  padding: 10px;
+}
+.contactoCard a {
+  text-decoration: none;
+  color: #FAEFE3;
 }
 
-.contactoCard{
-    color: #FAEFE3;
-    font-family: "Bitter";
-    padding: 10px;
+.form {
+  background-color: #FAEFE3;
+  border: #6E2E3C solid;
+  color: #6E2E3C;
+  width: 70%;
+  font-family: "Bitter";
+  margin-top: 8px;
+}
+.form input {
+  display: inline-block;
+  position: relative;
+  font-family: "Bitter";
+  margin: 5px;
+  width: 90%;
+}
+.form textarea {
+  width: 100%;
+}
+.form h4 {
+  margin: 5px;
 }
 
-.contactoCard a{
-    text-decoration: none;
-    color: #FAEFE3;
+.ubicacion {
+  background-color: #FAEFE3;
+  margin: 10px;
+  border: #6E2E3C solid;
+  width: fit-content;
+  font-family: "bitter";
+  padding: 5px;
 }
-
-.form{
-    background-color: #FAEFE3;
-    border: #6E2E3C solid;
-    color: #6E2E3C;
-    width: 70%;
-    font-family: "Bitter";
-}
-
-.form input{
-    display: inline-block;
-    position: relative;
-    font-family: "Bitter";
-    margin: 5px;
-    width: 90%
-}
-
-.form textarea{
-    width: 100%;
-}
-
-.form h4{
-    margin: 5px;
-}
-
-.ubicacion{
-    background-color: #FAEFE3;
-    margin: 10px;
-    border: #6E2E3C solid;
-    width: fit-content;
-    font-family: "bitter";
-    padding: 5px;
-}
-
-.ubicacion h2{
-    color: #6E2E3C;
-    font-family: "Gabriela";
-    margin: 5px;
+.ubicacion h2 {
+  color: #6E2E3C;
+  font-family: "Gabriela";
+  margin: 5px;
 }
 
 /*----> Footer <----*/
-
-.footer{
-    color: #FAEFE3;
-    font-family: "Bitter";
+.footer {
+  color: #FAEFE3;
+  font-family: "Bitter";
+}
+.footer a {
+  text-decoration: none;
+  color: #FAEFE3;
 }
 
-.footer a{
-    text-decoration: none;
-    color: #FAEFE3;
+.contactFooterCard {
+  background-color: #6E2E3C;
+  border: #FAEFE3 solid;
+  width: 327.2px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.contactFooterCard h2 {
+  text-align: center;
+}
+.contactFooterCard img {
+  margin: 10px;
 }
 
-.contactFooterCard{
-    background-color: #6E2E3C;
-    border: #FAEFE3 solid;
-    width: 327.2px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: start;
+.footerNav {
+  background-color: #6E2E3C;
+  border: #FAEFE3 solid;
+  width: 327.2px;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footerNav li {
+  margin: 30px 0px;
+  font-size: 0.8em;
 }
 
-.contactFooterCard h2{
-    text-align: center;
+.footerHorneados {
+  background-image: url(../img/smbckghorneado.png);
+  border: solid #6E2E3C 3px;
+  color: #6E2E3C;
+  width: 327.2px;
+  text-align: center;
+  font-family: "bitter";
+  padding: 0%;
+}
+.footerHorneados img {
+  width: 100%;
+  margin: 0px 0px 10px;
+}
+.footerHorneados h3 {
+  margin: 10px;
+  font-family: "Gabriela";
+  font-weight: 800;
+}
+.footerHorneados input {
+  background-color: #6E2E3C;
+  color: #FAEFE3;
+  margin-bottom: 10px;
 }
 
-.contactFooterCard img{
-    margin: 10px;
-}
-
-.footerNav{
-    background-color: #6E2E3C;
-    border: #FAEFE3 solid;
-    width: 327.2px;
-    font-size: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.footerNav li{
-    margin: 30px 0px;
-    font-size: 1em;
-}
-
-.footerHorneados{
-    background-image: url(../img/smbckghorneado.png);
-    border: solid #6E2E3C 3px;
-    color: #6E2E3C;
-    width: 327.2px;
-    text-align: center;
-    font-family: "bitter";
+@media (min-width: 768px) {
+  .contactFooterCard {
+    width: 27.26%;
+  }
+  .contactFooterCard img {
+    width: 25%;
+    margin: 0%;
+  }
+  .contactFooterCard ul {
     padding: 0%;
+  }
+  .contactFooterCard li {
+    margin: 5%;
+  }
+
+  .footerNav {
+    width: 27.26%;
+  }
+
+  .footerHorneados {
+    width: 27.26%;
+  }
+
+  .nosotrosCards {
+    width: 30%;
+  }
 }
-
-.footerHorneados img{
-    width: 100%;
-    margin: 0px 0px 10px;
-}
-
-.footerHorneados h3{
-    margin: 10px;
-    font-family: "Gabriela";
-    font-weight: 800;
-}
-
-.footerHorneados input{
-    background-color: #6E2E3C;
-    color: #FAEFE3;
-    margin-bottom: 10px;
-}
-
-.footer h5{
-    font-size: 0.7em;
-}
-
-@media(min-width:768px){
-    .contactFooterCard{
-        width: 27.26%;
-    }
-    .contactFooterCard img{
-        width: 25%;
-        margin: 0%;
-    }
-    .contactFooterCard ul{
-        padding: 0%;
-    }
-    .contactFooterCard li{
-        margin: 5%;
-    }
-    
-    .footerNav{
-        width: 27.26%;
-    }
-
-    .footerHorneados{
-        width: 27.26%;
-    }
-
-    .nosotrosCards{
-        width: 30%;
-    }
-}
-
-@media(max-width:768px){
-    .navIcons{
-        display: none;        
-    }
-}
+@media (max-width: 768px) {
+  .navIcons {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */

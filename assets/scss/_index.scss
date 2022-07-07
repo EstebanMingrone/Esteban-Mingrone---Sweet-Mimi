@@ -1,0 +1,29 @@
+/*----> Index <----*/
+
+.indexVideo{
+    width: 100%;
+    margin-top: 143px;
+}
+
+.indexSobreNosotros{
+    color: $mainColor;
+    background-color: $secondColor;
+    border: $mainColor solid;
+    font-family: "Bitter";
+    width: 90%;
+    h3{
+        font-family: "Gabriela";
+        font-weight: 800;
+    }
+}
+
+.card-body{ 
+    h5{
+    font-family: "gabriela";
+    font-weight: bolder;
+    }
+    p{
+        font-family: "bitter";
+        font-size: 13px;
+    }
+}

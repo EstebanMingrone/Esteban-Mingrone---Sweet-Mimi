@@ -1,0 +1,45 @@
+/*----> Productos <----*/
+
+.productosCategorias{
+    font-family: "bitter";
+    border: $mainColor solid;
+    width: fit-content;
+    text-align: center;
+    color: $mainColor;
+    background-color: #FDB6C5;
+    margin: 10px;
+    button{
+        background-color: $secondColor;
+        color: $mainColor;
+        border: $mainColor solid;
+        margin: 5px;
+    }
+}
+
+.productosBuscador{
+    width: 100%;
+}
+
+.productosFiltro{
+    width: 80%;
+}
+
+.productosCards{
+    background-color: #FAEFE3;
+    color: $mainColor;
+    font-family: "bitter";
+    border: $mainColor solid;
+    h5{
+        font-family: "Gabriela";
+        font-weight: 800;
+    }
+    &:hover{
+        -webkit-box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53); 
+        box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53);
+    }
+}
+
+.productosHorneados:hover{
+    -webkit-box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53); 
+    box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.53);
+}

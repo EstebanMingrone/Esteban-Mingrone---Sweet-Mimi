@@ -1,0 +1,44 @@
+@import"reset";
+@import"generales";
+@import"nav";
+@import"index";
+@import"nosotros";
+@import"productos";
+@import"galeria";
+@import"contacto";
+@import"footer";
+
+
+@media(min-width:768px){
+    .contactFooterCard{
+        width: 27.26%;
+        img{
+            width: 25%;
+            margin: 0%;
+        }
+        ul{
+            padding: 0%;
+        }
+        li{
+            margin: 5%;
+        }
+    }
+    
+    .footerNav{
+        width: 27.26%;
+    }
+
+    .footerHorneados{
+        width: 27.26%;
+    }
+
+    .nosotrosCards{
+        width: 30%;
+    }
+}
+
+@media(max-width:768px){
+    .navIcons{
+        display: none;        
+    }
+}

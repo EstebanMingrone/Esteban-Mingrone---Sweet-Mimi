@@ -1,0 +1,26 @@
+/*----> Nosotros <----*/
+
+.nosotrosMainCards{
+    font-family: "Bitter";
+    color: $mainColor;
+}
+
+.nosotrosCards{
+    background-color: $secondColor;
+    width: 60%;
+    border: $mainColor solid;
+    text-align: center;
+    h4{
+        font-family: "Gabriela";
+        font-weight: 800;
+        font-size: 30px;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+.sobreNosotros{
+    width: 100%;
+    margin: 10px;
+}
