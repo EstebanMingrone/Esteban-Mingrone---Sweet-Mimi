@@ -2,13 +2,13 @@
 
 .nosotrosMainCards{
     font-family: "Bitter";
-    color: $mainColor;
+    color: map-get($colors, $primary);
 }
 
 .nosotrosCards{
-    background-color: $secondColor;
+    background-color: map-get($colors, $secondary);
     width: 60%;
-    border: $mainColor solid;
+    border: map-get($colors, primary) solid;
     text-align: center;
     h4{
         font-family: "Gabriela";

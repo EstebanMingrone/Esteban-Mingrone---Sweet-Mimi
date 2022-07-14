@@ -1,18 +1,23 @@
 /*----> Footer <----*/
 
+@mixin sizing($ancho,$alto) {
+    width: $ancho;
+    height: $alto;
+}
+
 .footer{
-    color: $secondColor;
+    color: map-get($colors, secondary);
     font-family: "Bitter";
     a{
         text-decoration: none;
-        color: $secondColor;
+        color: map-get($colors, secondary);
     }
 }
 
 .contactFooterCard{
-    background-color: $mainColor;
-    border: $secondColor solid;
-    width: 327.2px;
+    background-color: map-get($colors, primary);
+    border: map-get($colors, secondary) solid;
+    @include sizing(327.2px, auto);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -26,12 +31,8 @@
 }
 
 .footerNav{
-    background-color: $mainColor;
-    border: $secondColor solid;
-    width: 327.2px;
+    @extend .contactFooterCard;
     font-size: 2em;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     li{
         margin: 30px 0px;
@@ -41,9 +42,9 @@
 
 .footerHorneados{
     background-image: url(../img/smbckghorneado.png);
-    border: solid $mainColor 3px;
-    color: $mainColor;
-    width: 327.2px;
+    border: solid map-get($colors, primary) 3px;
+    color: map-get($colors, primary);
+    @include sizing(327.2px, auto);
     text-align: center;
     font-family: "bitter";
     padding: 0%;
@@ -57,8 +58,8 @@
         font-weight: 800;
     }
     input{
-        background-color: $mainColor;
-        color: $secondColor;
+        background-color: map-get($colors, primary);
+        color: map-get($colors, secondary);
         margin-bottom: 10px;
     }
 }

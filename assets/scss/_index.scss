@@ -6,9 +6,9 @@
 }
 
 .indexSobreNosotros{
-    color: $mainColor;
-    background-color: $secondColor;
-    border: $mainColor solid;
+    color: map-get($colors, primary);
+    background-color: map-get($colors, secondary);
+    border: map-get($colors, primary) solid;
     font-family: "Bitter";
     width: 90%;
     h3{

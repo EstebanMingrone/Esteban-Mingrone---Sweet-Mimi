@@ -10,19 +10,19 @@
 }
 
 .contactoCard{
-    color: #FAEFE3;
+    color: map-get($colors , secondary);
     font-family: "Bitter";
     padding: 10px;
     a{
         text-decoration: none;
-        color: $secondColor;
+        color: map-get($colors, secondary);
     }
 }
 
 .form{
-    background-color: $secondColor;
-    border: $mainColor solid;
-    color: $mainColor;
+    background-color: map-get($colors , secondary) ;
+    border: map-get($colors, primary) solid;
+    color: map-get($colors, primary);
     width: 70%;
     font-family: "Bitter";
     margin-top: 8px;
@@ -42,14 +42,14 @@
 }
 
 .ubicacion{
-    background-color: $secondColor;
+    background-color: map-get($colors, secondary);
     margin: 10px;
-    border: $mainColor solid;
+    border: map-get($colors, primary) solid;
     width: fit-content;
     font-family: "bitter";
     padding: 5px;
     h2{
-        color: $mainColor;
+        color: map-get($colors, primary);
         font-family: "Gabriela";
         margin: 5px;
     }

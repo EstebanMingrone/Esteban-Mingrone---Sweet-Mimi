@@ -2,7 +2,7 @@
 
 .galeriaImg{
     img{
-    border: #FAEFE3 solid;
+    border: map-get($colors, secondary)  solid;
     margin: 10px;
     transition: all 1s;
     }

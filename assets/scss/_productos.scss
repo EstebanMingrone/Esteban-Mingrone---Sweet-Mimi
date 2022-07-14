@@ -2,16 +2,16 @@
 
 .productosCategorias{
     font-family: "bitter";
-    border: $mainColor solid;
+    border: map-get($colors,primary) solid;
     width: fit-content;
     text-align: center;
-    color: $mainColor;
+    color: map-get($colors,primary);
     background-color: #FDB6C5;
     margin: 10px;
     button{
         background-color: $secondColor;
-        color: $mainColor;
-        border: $mainColor solid;
+        color: map-get($colors, primary);
+        border: map-get($colors, primary) solid;
         margin: 5px;
     }
 }
@@ -26,9 +26,9 @@
 
 .productosCards{
     background-color: #FAEFE3;
-    color: $mainColor;
+    color: map-get($colors, primary);
     font-family: "bitter";
-    border: $mainColor solid;
+    border: map-get($colors, primary) solid;
     h5{
         font-family: "Gabriela";
         font-weight: 800;

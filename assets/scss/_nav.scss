@@ -1,7 +1,7 @@
 /*----> Nav <----*/
 .offcanvas{
-    background-color:$secondColor;
+    background-color:map-get(colors, secondary);
     a{
-        color: $mainColor;
+        color: map-get(colors, primary);
     }
 }
