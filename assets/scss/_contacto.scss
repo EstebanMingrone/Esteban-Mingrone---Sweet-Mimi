@@ -19,6 +19,12 @@
     }
 }
 
+.contactImages {
+    img{
+        width: 64px;
+    }
+}
+
 .form{
     background-color: map-get($colors , secondary) ;
     border: map-get($colors, primary) solid;

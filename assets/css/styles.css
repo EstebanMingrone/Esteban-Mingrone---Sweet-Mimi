@@ -75,7 +75,7 @@
   font-weight: 800;
 }
 
-.card-body h5 {
+.card-body h2 {
   font-family: "gabriela";
   font-weight: bolder;
 }
@@ -186,6 +186,10 @@
   color: #FAEFE3;
 }
 
+.contactImages li img{
+  width: 64px;
+}
+
 .form {
   background-color: #FAEFE3;
   border: #6E2E3C solid;
@@ -230,6 +234,10 @@
 .footer a {
   text-decoration: none;
   color: #FAEFE3;
+}
+
+.footer h4{
+  font-size: 17px;
 }
 
 .contactFooterCard {

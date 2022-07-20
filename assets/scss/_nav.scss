@@ -1,4 +1,8 @@
 /*----> Nav <----*/
+.navbar{
+    background-color: map-get(colors, primary);
+}
+
 .offcanvas{
     background-color:map-get(colors, secondary);
     a{
